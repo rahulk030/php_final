@@ -11,24 +11,15 @@ if (!isset($_SESSION['id'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Meta tags for character set, viewport, and compatibility -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Including Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Including custom CSS -->
-  <link rel="stylesheet" href=css/styles.css">
-  <!-- Title of the webpage -->
-  <title>IT Company || Services Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-  <?php include "templates/header.php" ?>
-  <!-- Container for the welcome message and user information -->
-  <div class="welcome-container">
+<?php include "templates/header.php" ?>
+<div class="welcome-container">
     <!-- Welcome heading -->
     <div class="welcome-heading">
       <!-- Displaying the user's full name -->
@@ -135,8 +126,7 @@ if (!isset($_SESSION['id'])) {
       </div>
     </div>
   </div>
-  <!-- Including the footer template -->
-  <?php include "templates/footer.php" ?>
+<?php include "templates/footer.php" ?>
+  
 </body>
-
 </html>
