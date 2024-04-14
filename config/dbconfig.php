@@ -3,7 +3,7 @@
 $host = 'localhost:3308';
 $username = 'root';
 $password = '';
-$databaseName = 'accounts'; // Change this to your actual database name
+$databaseName = 'accounts';
 
 // Establish a database connection
 try {
