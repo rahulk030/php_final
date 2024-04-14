@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 Contact us
             </h2>
             <!-- Description text -->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam harum, vel quia possimus delectus autem cupiditate est perferendis animi, reiciendis facere! Quae, nisi nobis assumenda perspiciatis omnis consequatur sequi doloribus.</p>
+            <p>Feel Free to interact with our team</p>
         </div>
         <!-- Contact form section -->
         <div class="contact-container">
