@@ -2,9 +2,9 @@
 session_start();
 include("config/dbconfig.php");
 
-$error_message = ""; // Initialize error message variable
+$error_message = ""; // Initialize error message variable used to store error messages
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {   //The code checks if the request method is POST
     $email = $_POST['email'];
     $password = $_POST['password'];
 
